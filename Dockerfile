@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install ffmpeg libsm6 libxext6 unzip -y && pip ins
 CMD ["python3", "app.py"]
 
 # FROM python:3.8-slim-buster
+
 # # from docker hub it will bring up python 3.8 version of linux base image
 # # creating working directory called app
 # WORKDIR /app 
